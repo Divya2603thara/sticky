@@ -1,0 +1,63 @@
+header{
+    position: sticky;
+    top: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    margin: 0;
+}
+
+.main-navbar{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;   
+}
+.compsny{
+    color: white;
+    margin: 12px;
+    font-size: 1.5rem;
+    align-items: center;
+    
+}
+.right{
+    margin: auto 12px;
+    color: white;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+ul a{
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    font-size: 1.25rem;
+}
+h4{
+    margin: 0;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.info{
+    padding-left: 50px;
+    width: 50%;
+    font-size: 1.25rem;
+}
+.image{
+    padding-right: 50px;
+}
+.img{
+    height: 600px;
+    width: 500px;   
+}
+.learn-button button{
+    padding: 12px 50px;
+    background-color: black;
+    font-size: 1.1rem;
+    color: white;
+}
